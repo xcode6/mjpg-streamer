@@ -64,7 +64,11 @@ function imageOnclick() { // Clicking on the image will pause the stream
 
 </script>
 <body onload="createImageLayer();">
-
-	<div id="webcam"><noscript><img src="./?action=snapshot" /></noscript></div>
+	<p class="xform-p"></p>
+	<p id="streamwrap" class="xform-p">
+		<img id="streamimage" class="xform" src="./?action=stream" />
+	</p>
+	
+	<!--<div id="webcam"><noscript><img src="./?action=snapshot" /></noscript></div>-->
 </body>
 </html>
