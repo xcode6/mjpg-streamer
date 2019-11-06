@@ -1,0 +1,13 @@
+--2019-04-10 04:42:29--  http://192.168.1.123:8080/?action=snapshot
+Connecting to 192.168.1.123:8080... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [image/jpeg]
+Saving to: ‘index.html?action=snapshot.1’
+
+     0K .......... .......... .......... .......... .......... 72.3M
+    50K .......... .......... .......... .......... ..........  105M
+   100K .......... .......... .......... .......... ..........  111M
+   150K .......... .....                                       93.1M=0.002s
+
+2019-04-10 04:42:29 (92.9 MB/s) - ‘index.html?action=snapshot.1’ saved [169770]
+
