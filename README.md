@@ -100,6 +100,27 @@ See [README.md](mjpg-streamer-experimental/README.md) or the individual plugin's
 Discussion / Questions / Help
 =============================
 
+Install opencv in Raspberry Pi:
+sudo apt-get update
+sudo apt-get install libjpeg-dev;
+sudo apt-get install libatlas-base-dev;
+sudo apt-get install libjpeg-dev;
+sudo apt-get install libtiff5-dev;
+sudo apt-get install libpng12-dev
+sudo apt-get install libqtgui4 libqt4-test
+sudo apt-get install libjasper-dev;
+sudo apt-get install libopencv-dev
+
+OpenCV python:
+sudo pip3 install opencv-python
+
+run:
+Enter mjpg-streamer-experimental directory and type:
+
+```
+export LD_LIBRARY_PATH=.;./mjpg_streamer -o "output_http.so -w ./www" -i input_opencv.so
+```
+
 Probably best in this thread
 http://www.raspberrypi.org/phpBB3/viewtopic.php?f=43&t=45178
 
