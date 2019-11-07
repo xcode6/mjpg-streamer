@@ -572,6 +572,7 @@ void *worker_thread(void *arg)
 			if(video1)
 			{
 				delete video1;
+				video1 = NULL;
 			}
 		}
 
