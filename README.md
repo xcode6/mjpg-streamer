@@ -115,7 +115,7 @@ sudo apt-get install libopencv-dev
 OpenCV python:
 sudo pip3 install opencv-python
 ```
-run:
+
 Enter mjpg-streamer-experimental directory and type:
 
 ```
